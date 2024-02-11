@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    border: 0;
+}
+body{
+    height: 100vh;
+}
+ul {
+	margin: 0 0 20px 0;
+	padding: 10px;
+    color: aliceblue;
+    font-size: max(1em, min(4em, calc(15vw * 4 / 75)));
+}
+li {
+
+	display: block;
+	margin: 7px 0;
+	background-size: 8px 8px;
+	padding-left: 15px;
+    border: 2px;
+}
+.nodeButton{
+    width: 25px;
+    height: 25px;
+    border: none;
+    transform: rotate(90deg);
+    background-color: rgb(86, 86, 85);
+}
+#services{
+    background-color: rgb(86, 86, 85);
+    width: 15vw;
+    height: 100vh;
+}
+body{
+    display: flex;
+}
