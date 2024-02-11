@@ -18,7 +18,6 @@ function main(){
             rootIds.push(service.id)
         }
     })
-
     rootIds.sort(compareForService).forEach((id) => {
         createElement(id, rootDom);
     })
